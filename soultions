@@ -1,0 +1,12 @@
+I have created 2 apps
+
+1. Tasks (Which hold my Django related task)
+Solution i have used a build in django model for User.And added data in that model. Just Use simple bootstrap on front end. All validations are on backend.
+2. jenkins_conf (Which hold my python script for task)
+I have written a basic python command in that app and it also contains the model as well. You can also run command by using 'python manage.py jobs_list'.
+
+
+The test was easy. Since i have not used jenkins before and its website is renewing. That is where it takes little more time. Else everything is good and fine.
+
+
+
