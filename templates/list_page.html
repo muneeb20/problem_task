@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% if users %}
+    <table class="table table-striped">
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+        </tr>
+        {% for user in users %}
+            <tr><td>{{ user.full_name }}</td><td>{{ user.email }}</td></tr>
+
+    {% endfor %}
+        {% else %}
+        <h1>No Users Yet</h1>
+    {% endif %}
+
+    </table>
+{% endblock %}
